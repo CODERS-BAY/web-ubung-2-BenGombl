@@ -1,0 +1,149 @@
+html{
+    background-color: #f6f6f6;
+    background-image: linear-gradient(10deg, #ddedfa, #ffffff);
+    background-attachment: fixed;
+    
+    font-family: Verdana;
+}
+
+header{
+    
+    position: sticky;
+    top: -8.5rem;
+    margin: 0;
+}
+
+h1{
+    color:burlywood;
+    background-color: rgb(90, 88, 88);
+    background-image: linear-gradient(0deg, rgb(90, 88, 88), black);
+    font-size: 7rem;
+    font-family: "Courier New";
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1rem 1rem 0rem 1rem;
+    letter-spacing: -0.6rem;
+    text-shadow: 3px 3px 1px #111111;
+
+}
+
+main{
+    max-width: 85rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(90, 88, 88);
+
+    padding: 2rem 0 0 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav a{
+    color: floralwhite;
+    font-size: 1.6rem;
+    font-family: "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    background-color: rgb(90, 88, 88);
+    
+    padding: 1rem;
+    margin: 0 0 0 2rem;
+    border-radius: 1rem;
+
+}
+
+nav a:first-of-type{
+    margin: 0;
+}
+ nav a:hover{
+     color: rgb(184, 220, 226);
+ }
+
+
+h2{
+    color: darkslateblue;
+    font-size: 3rem;
+    font-family: "Courier";
+    
+}
+
+hr{
+    
+    clear: both;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+img{
+    
+    float: right;
+    width: 450px;
+    margin: 1rem;
+}
+
+img.left{
+    float: left;
+}
+
+article{
+    font-size: 1.4rem;
+}
+
+#gedicht section{
+    font-family: "Palatino Linotype";
+    font-style: italic;
+    display: block;
+}
+
+footer{
+    text-align: right;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1350px){
+    #gedicht img{
+        display: none;
+    }
+    img{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+    nav a{
+        margin: 0;
+        padding: 0.5rem;
+        
+    }
+    
+
+}
+
+@media screen and (max-width: 850px){
+    nav a{
+        font-size: 1.1rem;
+        padding: 0 0.5rem;
+        
+    }
+    img, img.left{
+        float: none;
+        
+    }
+    nav{
+        padding: 0.2em;
+    }
+
+    
+
+}
+
+
+
